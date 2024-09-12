@@ -1,7 +1,7 @@
 # Drawing a math function and calculating zero places
 ### The only things you need to have is library. You can install it in some IDE e.g. Pycharm or with pip:
-pip install flask\n
-pip install numpy\n
+pip install flask <br>
+pip install numpy <br>
 pip install matplotlib
 
 # The design of the page
