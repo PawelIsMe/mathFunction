@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>QuadraticFunction</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="graph-container">
+            <h1 style="text-align: center; width: 100%; color: black;">Rysowanie Funkcji</h1>
+            <div class="graph-img">
+                <img src="{{ url_for('static', filename='graph.png') }}">
+            </div>
+            <form method="POST">
+                <img style="margin-bottom:1em" src="{{ url_for('static', filename='q_function.svg') }}">
+                <div class="input-container">
+                    <input name="a" type="text" placeholder="A" autofocus="autofocus" required>
+                    <input name="b" type="text" placeholder="B" autofocus="autofocus" required>
+                    <input name="c" type="text" placeholder="C" autofocus="autofocus" required>
+                </div>
+                <p style="color:#641E16;font-weight: bold">{{ blad1 }}</p>
+                <button class="genButton" >Generuj</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
