@@ -5,4 +5,4 @@ pip install numpy <br>
 pip install matplotlib
 
 # The design of the page
-![image](https://github.com/user-attachments/assets/31fa43c2-a530-494f-b72c-b1a0570b0ec8)
+![image](https://github.com/user-attachments/assets/3cb08699-9787-4916-b6be-85a1e2fc05ad)
