@@ -10,9 +10,9 @@
         <div class="graph-container">
             <h1 style="text-align: center; width: 100%; color: black;">Rysowanie Funkcji</h1>
             <div class="graph-img">
-                <img src="{{ url_for('static', filename='graph.png') }}">
+                <img style="height: 100%; width: 100%;" src="{{ url_for('static', filename='graph.png') }}">
             </div>
-            <form method="POST">
+            <form class="form-container" method="POST">
                 <img style="margin-bottom:1em" src="{{ url_for('static', filename='q_function.svg') }}">
                 <div class="input-container">
                     <input name="a" type="text" placeholder="A" autofocus="autofocus" required>

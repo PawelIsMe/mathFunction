@@ -11,9 +11,9 @@ def load_index():
 @app.route('/', methods=['POST'])
 def info():
     try:
-        a = int(request.form.get('a'))
-        b = int(request.form.get('b'))
-        c = int(request.form.get('c'))
+        a = float(request.form.get('a'))
+        b = float(request.form.get('b'))
+        c = float(request.form.get('c'))
         qf = QuadraticFunc(a, b, c)
         w = qf.f_kwadratowa()
     except:
